@@ -181,7 +181,7 @@ class AbstractChart extends Component {
       return (
         <Text
           origin={`${x}, ${y}`}
-          rotation={verticalLabelRotation}
+          rotation={25}
           key={Math.random()}
           x={x}
           y={y}
